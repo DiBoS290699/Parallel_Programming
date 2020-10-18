@@ -1,0 +1,39 @@
+============ Begin prologue script =============
+============ End prologue script =============
+AVERAGE TIME OF WORK IS 0.000491 
+
+ n_threads = 1 
+OMP Reduction Version
+AVERAGE TIME OF WORK IS 0.000360 
+
+ n_threads = 16 
+OMP Reduction Version
+AVERAGE TIME OF WORK IS 0.003844 
+
+ n_threads = 24 
+OMP Reduction Version
+AVERAGE TIME OF WORK IS 0.000699 
+
+ n_threads = 1 
+OMP Critical Version
+AVERAGE TIME OF WORK IS 0.000051 
+
+ n_threads = 16 
+OMP Critical Version
+AVERAGE TIME OF WORK IS 0.000835 
+
+ n_threads = 24 
+OMP Critical Version
+AVERAGE TIME OF WORK IS 0.000655 
+
+ n_threads = 1 
+OMP Atomic Version 
+AVERAGE TIME OF WORK IS 0.000034 
+
+ n_threads = 16 
+OMP Atomic Version 
+AVERAGE TIME OF WORK IS 0.002126 
+
+ n_threads = 24 
+OMP Atomic Version 
+AVERAGE TIME OF WORK IS 0.000656 

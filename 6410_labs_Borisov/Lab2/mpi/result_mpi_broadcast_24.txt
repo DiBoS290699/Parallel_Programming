@@ -1,0 +1,40 @@
+Broadcast version
+Total Sum =  960000.00
+TIME OF WORK IS 0.004621 
+
+Broadcast version
+Total Sum =  960000.00
+TIME OF WORK IS 0.003659 
+
+Broadcast version
+Total Sum =  960000.00
+TIME OF WORK IS 0.004092 
+
+Broadcast version
+Total Sum =  960000.00
+TIME OF WORK IS 0.003741 
+
+Broadcast version
+Total Sum =  960000.00
+TIME OF WORK IS 0.004642 
+
+Broadcast version
+Total Sum =  960000.00
+TIME OF WORK IS 0.003643 
+
+Broadcast version
+Total Sum =  960000.00
+TIME OF WORK IS 0.004095 
+
+Broadcast version
+Total Sum =  960000.00
+TIME OF WORK IS 0.004348 
+
+Broadcast version
+Total Sum =  960000.00
+TIME OF WORK IS 0.005718 
+
+Broadcast version
+Total Sum =  960000.00
+TIME OF WORK IS 0.004465 
+
