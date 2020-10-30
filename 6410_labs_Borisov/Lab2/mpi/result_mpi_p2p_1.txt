@@ -1,40 +1,40 @@
 P2P version
 Total Sum =  960000.00
-TIME OF WORK IS 0.001319 
+TIME OF WORK IS 0.001364 
 
 P2P version
 Total Sum =  960000.00
-TIME OF WORK IS 0.001289 
-
-P2P version
-Total Sum =  960000.00
-TIME OF WORK IS 0.001282 
-
-P2P version
-Total Sum =  960000.00
-TIME OF WORK IS 0.001321 
-
-P2P version
-Total Sum =  960000.00
-TIME OF WORK IS 0.001288 
-
-P2P version
-Total Sum =  960000.00
-TIME OF WORK IS 0.001281 
-
-P2P version
-Total Sum =  960000.00
-TIME OF WORK IS 0.001299 
-
-P2P version
-Total Sum =  960000.00
-TIME OF WORK IS 0.001297 
-
-P2P version
-Total Sum =  960000.00
-TIME OF WORK IS 0.001096 
+TIME OF WORK IS 0.001301 
 
 P2P version
 Total Sum =  960000.00
 TIME OF WORK IS 0.001295 
+
+P2P version
+Total Sum =  960000.00
+TIME OF WORK IS 0.001310 
+
+P2P version
+Total Sum =  960000.00
+TIME OF WORK IS 0.001302 
+
+P2P version
+Total Sum =  960000.00
+TIME OF WORK IS 0.001315 
+
+P2P version
+Total Sum =  960000.00
+TIME OF WORK IS 0.001307 
+
+P2P version
+Total Sum =  960000.00
+TIME OF WORK IS 0.001310 
+
+P2P version
+Total Sum =  960000.00
+TIME OF WORK IS 0.001309 
+
+P2P version
+Total Sum =  960000.00
+TIME OF WORK IS 0.001299 
 

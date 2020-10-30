@@ -1,6 +1,7 @@
 #include <omp.h> 
 #define CHUNK 100 
-#include "stdio.h" 
+#define NMAX 960001 
+#include "stdio.h"
 
 
 int main(int argc, char* argv[]) {
@@ -11,31 +12,33 @@ int main(int argc, char* argv[]) {
 	printf("\n n_threads = %i \n", n_threads);
 	omp_set_num_threads(n_threads);
 	double avgTime;
-	int N = 960000; 
+	int N = NMAX; 
+	int chunk = CHUNK;
 	int iter;
-	double sum;
 	for (iter=0; iter < 10; iter++) { 	
 
 		int i; 
 		double* a = (double*) malloc(N * sizeof(double));
+		double* b = (double*) malloc(N * sizeof(double)); 
+		double* sum = (double*) malloc(N * sizeof(double)); 
+
 		double st_time, end_time; 
 
-		if (a == NULL) {
+		if (a == NULL || b == NULL || sum == NULL) {
 			printf("This array is so big!");
 			return 1;
 		} 
 
 		for (i=0; i < N; i++) {
-			a[i] = 1;
+			a[i] = 0.5;
+			b[i] = 0.5;
 		}
 	
 		st_time = omp_get_wtime(); 
-		sum = 0; 
 		
-		// #pragma omp parallel default(none) private(i) shared(nSum, nThreads, nStart, nEnd)
-		#pragma omp parallel for reduction (+:sum)
+		#pragma omp parallel for shared (a, b, sum, N) private (i) schedule(dynamic,chunk)
 			for (i=0; i < N; i++){ 
-				sum = sum + a[i]; 
+				sum[i] = b[i] + a[i]; 
 			} 
 								
 	
@@ -44,8 +47,15 @@ int main(int argc, char* argv[]) {
 	
 		avgTime = avgTime + end_time;
 		free(a);
+		free(b);
+		//printf("\nSum: ");
+		//for (int k = N - 1; k > N - 16; --k) {
+		//	printf("%f ", sum[k]);
+		//}
+		//printf("\n");
+		free(sum);
 	}
-	printf("OMP Reduction Version\n"); 	
+	printf("OMP dynamic Version with CHUNK = %d\n", chunk); 	
 	printf("AVERAGE TIME OF WORK IS %f \n", avgTime / 10); 
 	return 0; 
 } 

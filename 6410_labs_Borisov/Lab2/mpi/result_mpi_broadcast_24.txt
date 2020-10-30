@@ -1,40 +1,40 @@
 Broadcast version
 Total Sum =  960000.00
-TIME OF WORK IS 0.004621 
+TIME OF WORK IS 0.011708 
 
 Broadcast version
 Total Sum =  960000.00
-TIME OF WORK IS 0.003659 
+TIME OF WORK IS 0.011786 
 
 Broadcast version
 Total Sum =  960000.00
-TIME OF WORK IS 0.004092 
+TIME OF WORK IS 0.011682 
 
 Broadcast version
 Total Sum =  960000.00
-TIME OF WORK IS 0.003741 
+TIME OF WORK IS 0.011563 
 
 Broadcast version
 Total Sum =  960000.00
-TIME OF WORK IS 0.004642 
+TIME OF WORK IS 0.011680 
 
 Broadcast version
 Total Sum =  960000.00
-TIME OF WORK IS 0.003643 
+TIME OF WORK IS 0.011826 
 
 Broadcast version
 Total Sum =  960000.00
-TIME OF WORK IS 0.004095 
+TIME OF WORK IS 0.011660 
 
 Broadcast version
 Total Sum =  960000.00
-TIME OF WORK IS 0.004348 
+TIME OF WORK IS 0.011632 
 
 Broadcast version
 Total Sum =  960000.00
-TIME OF WORK IS 0.005718 
+TIME OF WORK IS 0.011411 
 
 Broadcast version
 Total Sum =  960000.00
-TIME OF WORK IS 0.004465 
+TIME OF WORK IS 0.012007 
 

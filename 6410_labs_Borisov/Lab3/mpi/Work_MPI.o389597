@@ -1,0 +1,8 @@
+============ Begin prologue script =============
+============ End prologue script =============
+MPI Version with NMAX = 960000 and CHUNK = 100
+AVERAGE TIME OF WORK IS 0.022657 
+MPI Version with NMAX = 960000 and CHUNK = 100
+AVERAGE TIME OF WORK IS 0.009441 
+MPI Version with NMAX = 960000 and CHUNK = 100
+AVERAGE TIME OF WORK IS 0.011349 

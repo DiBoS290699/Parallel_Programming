@@ -21,10 +21,10 @@ int main(int argc, char* argv[]) {
 	if (ProcRank==0) { 
 		for (i = 0; i < N; i++) x[i] = 1.0;	
 	} 
+	st_time = MPI_Wtime(); 
 
 	MPI_Bcast(x, N, MPI_DOUBLE, 0, MPI_COMM_WORLD); 
 	
-	st_time = MPI_Wtime(); 
 	int k = N / ProcNum; 
 	int i1 = k * ProcRank; 
 	int i2 = k * ( ProcRank + 1 ); 
@@ -40,12 +40,13 @@ int main(int argc, char* argv[]) {
 
 	MPI_Barrier(MPI_COMM_WORLD); 
 
-	end_time = MPI_Wtime(); 
-	end_time = end_time - st_time; 
 
 	if ( ProcRank == 0 ) {
 		printf("Broadcast version"); 
 		printf("\nTotal Sum = %10.2f",TotalSum); 
+		end_time = MPI_Wtime(); 
+		end_time = end_time - st_time; 
+
 		printf("\nTIME OF WORK IS %f \n\n", end_time); 
 	} 
 

@@ -21,11 +21,12 @@ touch result_mpi_broadcast_16.txt
 touch result_mpi_p2p_24.txt
 touch result_mpi_broadcast_24.txt
 
-for i in {1..10}; do mpirun -np 1  ./mpi_p2p_out; done > result_mpi_p2p_1.txt
-for i in {1..10}; do mpirun -np 1  ./mpi_broadcast_out; done > result_mpi_broadcast_1.txt
+for i in {1..10}; do mpirun -np 1 out/mpi_p2p_out; done > result_mpi_p2p_1.txt
+for i in {1..10}; do mpirun -np 1 out/mpi_broadcast_out ; done > result_mpi_broadcast_1.txt
 
-for i in {1..10}; do mpirun -np 16 ./mpi_p2p_out; done > result_mpi_p2p_16.txt
-for i in {1..10}; do mpirun -np 16 ./mpi_broadcast_out; done > result_mpi_broadcast_16.txt
+for i in {1..10}; do mpirun -np 16 out/mpi_p2p_out; done > result_mpi_p2p_16.txt
+for i in {1..10}; do mpirun -np 16 out/mpi_broadcast_out; done > result_mpi_broadcast_16.txt
 
-for i in {1..10}; do mpirun -np 24 ./mpi_p2p_out; done > result_mpi_p2p_24.txt
-for i in {1..10}; do mpirun -np 24 ./mpi_broadcast_out; done > result_mpi_broadcast_24.txt
+for i in {1..10}; do mpirun -np 24 out/mpi_p2p_out; done > result_mpi_p2p_24.txt
+for i in {1..10}; do mpirun -np 24 out/mpi_broadcast_out; done > result_mpi_broadcast_24.txt
+

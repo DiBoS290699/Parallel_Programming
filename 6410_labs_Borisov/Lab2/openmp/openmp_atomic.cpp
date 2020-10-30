@@ -13,11 +13,11 @@ int main(int argc, char* argv[]) {
 	double avgTime;
 	int N = 960000; 
 	int iter;
+ 	double sum;
 	for (iter=0; iter < 10; iter++) { 	
 
 		int i; 
 		double* a = (double*) malloc(N * sizeof(double));
- 		double sum;
 		double st_time, end_time; 
 
 		if (a == NULL) {
@@ -46,8 +46,7 @@ int main(int argc, char* argv[]) {
 		avgTime = avgTime + end_time;
 		free(a);
 	}
-	printf("OMP Atomic Version \n");
-	
+	printf("OMP Atomic Version \n");	
 	printf("AVERAGE TIME OF WORK IS %f \n", avgTime / 10); 
 	return 0; 
 } 
