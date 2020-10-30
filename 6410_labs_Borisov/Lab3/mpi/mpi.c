@@ -70,6 +70,12 @@ int main(int argc, char* argv[]) {
 	}
 
 	if ( ProcRank == 0 ) {
+		//printf("\nSum: ");
+		//int k;
+		//for (k = N - 1; k > N - 16; --k) {
+		//	printf("%f ", sum[k]);
+		//}
+		//printf("\n");
 		free(a);
 		free(b);
 		free(sum);
