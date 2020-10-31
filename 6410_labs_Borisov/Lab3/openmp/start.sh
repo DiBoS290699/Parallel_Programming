@@ -1,6 +1,6 @@
 #!/bin/bash
+#PBS -l feature=gpu
 #PBS -N Work_OPENMP
-#PBS -l walltime=00:01:10
 #PBS -j oe
 #PBS -A tk
 cd $PBS_O_WORKDIR

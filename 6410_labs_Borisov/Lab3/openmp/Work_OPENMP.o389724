@@ -1,0 +1,38 @@
+============ Begin prologue script =============
+============ End prologue script =============
+
+ n_threads = 1 
+OMP dynamic Version with CHUNK = 100
+AVERAGE TIME OF WORK IS 0.005200 
+
+ n_threads = 16 
+OMP dynamic Version with CHUNK = 100
+AVERAGE TIME OF WORK IS 0.005681 
+
+ n_threads = 24 
+OMP dynamic Version with CHUNK = 100
+AVERAGE TIME OF WORK IS 0.007462 
+
+ n_threads = 1 
+OMP static Version with CHUNK = 100
+AVERAGE TIME OF WORK IS 0.005434 
+
+ n_threads = 16 
+OMP static Version with CHUNK = 100
+AVERAGE TIME OF WORK IS 0.004118 
+
+ n_threads = 24 
+OMP static Version with CHUNK = 100
+AVERAGE TIME OF WORK IS 0.004377 
+
+ n_threads = 1 
+OMP guided Version with CHUNK = 100
+AVERAGE TIME OF WORK IS 0.005033 
+
+ n_threads = 16 
+OMP guided Version with CHUNK = 100
+AVERAGE TIME OF WORK IS 0.003999 
+
+ n_threads = 24 
+OMP guided Version with CHUNK = 100
+AVERAGE TIME OF WORK IS 0.004413 

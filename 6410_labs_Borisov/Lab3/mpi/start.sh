@@ -1,6 +1,6 @@
 #!/bin/bash
+#PBS -l feature=gpu
 #PBS -N Work_MPI 
-#PBS -l walltime=00:01:10 
 #PBS -l nodes=3:ppn=8 
 #PBS -j oe 
 #PBS -A tk 

@@ -59,7 +59,8 @@ int main(int argc, char* argv[]) {
 		}
 
 		MPI_Gatherv(loc_sum, send_counts[ProcRank], MPI_DOUBLE, sum, send_counts, displs, MPI_DOUBLE, 0, MPI_COMM_WORLD);
-
+		
+		MPI_Barrier(MPI_COMM_WORLD);
 		end_time = MPI_Wtime(); 
 		end_time = end_time - st_time; 
 		sum_time = sum_time + end_time;
@@ -70,17 +71,18 @@ int main(int argc, char* argv[]) {
 	}
 
 	if ( ProcRank == 0 ) {
-		//printf("\nSum: ");
-		//int k;
-		//for (k = N - 1; k > N - 16; --k) {
-		//	printf("%f ", sum[k]);
-		//}
-		//printf("\n");
+		printf("\nSum: ");
+		int k;
+		for (k = N - 1; k > N - 16; --k) {
+			printf("%f ", sum[k]);
+		}
+		printf("\n");
 		free(a);
 		free(b);
 		free(sum);
 		free(send_counts);
-		free(displs); 
+		free(displs);
+		printf("The number of processes: %d", ProcNum); 
 		printf("MPI Version with NMAX = %d and CHUNK = %d\n", N, chunk);
 		printf("AVERAGE TIME OF WORK IS %f \n", sum_time / 10); 
 	} 

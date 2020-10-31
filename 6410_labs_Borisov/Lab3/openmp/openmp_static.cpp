@@ -11,16 +11,16 @@ int main(int argc, char* argv[]) {
 	}
 	printf("\n n_threads = %i \n", n_threads);
 	omp_set_num_threads(n_threads);
-	double avgTime;
+	double avgTime, *a, *b, *sum;
 	int N = NMAX; 
 	int chunk = CHUNK;
 	int iter;
 	for (iter=0; iter < 10; iter++) { 	
 
 		int i; 
-		double* a = (double*) malloc(N * sizeof(double));
-		double* b = (double*) malloc(N * sizeof(double)); 
-		double* sum = (double*) malloc(N * sizeof(double)); 
+		a = (double*) malloc(N * sizeof(double));
+		b = (double*) malloc(N * sizeof(double)); 
+		sum = (double*) malloc(N * sizeof(double)); 
 
 		double st_time, end_time; 
 
@@ -48,13 +48,14 @@ int main(int argc, char* argv[]) {
 		avgTime = avgTime + end_time;
 		free(a);
 		free(b);
-		//printf("\nSum: ");
-		//for (int k = N - 1; k > N - 16; --k) {
-		//	printf("%f ", sum[k]);
-		//}
-		//printf("\n");
-		free(sum);
 	}
+	printf("\nSum: ");
+	for (int k = N - 1; k > N - 16; --k) {
+		printf("%f ", sum[k]);
+	}
+	printf("\n");
+	free(sum);
+
 	printf("OMP static Version with CHUNK = %d\n", chunk); 	
 	printf("AVERAGE TIME OF WORK IS %f \n", avgTime / 10); 
 	return 0; 
