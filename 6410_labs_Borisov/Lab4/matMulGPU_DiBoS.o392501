@@ -1,0 +1,5 @@
+============ Begin prologue script =============
+============ End prologue script =============
+n = 2000000
+time spent executing kernel: 0.000410464 seconds
+The last 10 elements: 3 3 3 3 3 3 3 3 3 3 
