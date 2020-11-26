@@ -8,9 +8,9 @@ int main(int argc, char* argv[])
 
     int n = atoi(argv[1]);
 
-    printf("n = %d\n", n);
-
-    int n2b = n * sizeof(int);
+    printf("\nn = %d\n", n);
+    int BLOCK_NUMBER = (n + BLOCK_SIZE - 1) / BLOCK_SIZE;
+    int n2b = BLOCK_NUMBER * BLOCK_SIZE * sizeof(int);
 
     // Выделение памяти на хосте
     int* a = (int*)calloc(n, sizeof(int));
@@ -96,7 +96,6 @@ int main(int argc, char* argv[])
     }
 
     //Запуск ядра
-    int BLOCK_NUMBER = (n + BLOCK_SIZE - 1) / BLOCK_SIZE;
     kernel <<< BLOCK_NUMBER, BLOCK_SIZE >>> (dev_c, dev_a, dev_b, n);
 
     cuerr = cudaGetLastError();
@@ -126,7 +125,7 @@ int main(int argc, char* argv[])
     }
 
     // Копирование результата на хост
-    cuerr = cudaMemcpy(c, dev_c, n2b, cudaMemcpyDeviceToHost);
+    cuerr = cudaMemcpy(c, dev_c, n, cudaMemcpyDeviceToHost);
     if (cuerr != cudaSuccess)
     {
         fprintf(stderr, "Cannot copy c array from device to host: %s\n",

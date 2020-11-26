@@ -7,6 +7,7 @@ __global__ void addKernel(int *c, int *a, int *b, unsigned int size)
 	
 	// Заполнение массива c
 	c[index] = a[index] + b[index];
+
 }
 
 #define kernel addKernel

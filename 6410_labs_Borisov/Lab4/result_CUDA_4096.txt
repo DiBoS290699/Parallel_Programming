@@ -1,0 +1,37 @@
+
+n = 4096
+time spent executing kernel: 0.000039808 seconds
+The last 10 elements: 3 3 3 3 3 3 3 3 3 3 
+n = 4096
+time spent executing kernel: 0.000044288 seconds
+The last 10 elements: 3 3 3 3 3 3 3 3 3 3 
+n = 4096
+time spent executing kernel: 0.000044928 seconds
+The last 10 elements: 3 3 3 3 3 3 3 3 3 3 
+n = 4096
+time spent executing kernel: 0.000043776 seconds
+The last 10 elements: 3 3 3 3 3 3 3 3 3 3 
+n = 4096
+time spent executing kernel: 0.000040224 seconds
+The last 10 elements: 3 3 3 3 3 3 3 3 3 3 
+n = 4096
+time spent executing kernel: 0.000041376 seconds
+The last 10 elements: 3 3 3 3 3 3 3 3 3 3 
+n = 4096
+time spent executing kernel: 0.000045216 seconds
+The last 10 elements: 3 3 3 3 3 3 3 3 3 3 
+n = 4096
+time spent executing kernel: 0.000040480 seconds
+The last 10 elements: 3 3 3 3 3 3 3 3 3 3 
+n = 4096
+time spent executing kernel: 0.000044000 seconds
+The last 10 elements: 3 3 3 3 3 3 3 3 3 3 
+n = 4096
+time spent executing kernel: 0.000046496 seconds
+The last 10 elements: 3 3 3 3 3 3 3 3 3 3 
+n = 4096
+time spent executing kernel: 0.000043360 seconds
+The last 10 elements: 3 3 3 3 3 3 3 3 3 3 
+n = 4096
+time spent executing kernel: 0.000041056 seconds
+The last 10 elements: 3 3 3 3 3 3 3 3 3 3 

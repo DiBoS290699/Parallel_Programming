@@ -1,0 +1,7 @@
+
+ n_threads = 1 
+
+ N = 4096 
+
+Sum: 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+AVERAGE TIME OF WORK IS 0.000063 

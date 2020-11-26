@@ -1,0 +1,89 @@
+============ Begin prologue script =============
+============ End prologue script =============
+NxN == 32x32
+gpuTime = 0.0982117
+OneThrTime = 0
+gpuTime = 0.000812576
+OneThrTime = 0
+gpuTime = 0.000816928
+OneThrTime = 0
+gpuTime = 0.000813056
+OneThrTime = 0
+gpuTime = 0.000805856
+OneThrTime = 0
+gpuTime = 0.000814944
+OneThrTime = 0
+gpuTime = 0.000812064
+OneThrTime = 0
+gpuTime = 0.00081264
+OneThrTime = 0
+gpuTime = 0.000811328
+OneThrTime = 0
+gpuTime = 0.000811648
+OneThrTime = 0
+gpuTime = 0.000819552
+OneThrTime = 0
+gpuTime = 0.000814912
+OneThrTime = 0
+gpuTime = 0.000813568
+OneThrTime = 0
+AVERAGE TIME OF WORK OF CUDA IS 0.000813 
+AVERAGE TIME OF WORK OF 1 THREADS IS 0.000000 
+NxN == 64x64
+gpuTime = 0.0974566
+OneThrTime = 0.01
+gpuTime = 0.000468896
+OneThrTime = 0.01
+gpuTime = 0.000467424
+OneThrTime = 0
+gpuTime = 0.000467776
+OneThrTime = 0.01
+gpuTime = 0.000467872
+OneThrTime = 0
+gpuTime = 0.000467904
+OneThrTime = 0
+gpuTime = 0.00046512
+OneThrTime = 0.01
+gpuTime = 0.000460512
+OneThrTime = 0
+gpuTime = 0.000461376
+OneThrTime = 0
+gpuTime = 0.000462528
+OneThrTime = 0.01
+gpuTime = 0.000462592
+OneThrTime = 0.01
+gpuTime = 0.000468448
+OneThrTime = 0.01
+gpuTime = 0.00046896
+OneThrTime = 0
+AVERAGE TIME OF WORK OF CUDA IS 0.000466 
+AVERAGE TIME OF WORK OF 1 THREADS IS 0.005000 
+NxN == 128x128
+gpuTime = 0.0986191
+OneThrTime = 0.02
+gpuTime = 0.000849184
+OneThrTime = 0.02
+gpuTime = 0.000850464
+OneThrTime = 0.02
+gpuTime = 0.000840448
+OneThrTime = 0.02
+gpuTime = 0.000846496
+OneThrTime = 0.02
+gpuTime = 0.00085216
+OneThrTime = 0.02
+gpuTime = 0.000848896
+OneThrTime = 0.02
+gpuTime = 0.000851744
+OneThrTime = 0.02
+gpuTime = 0.000840672
+OneThrTime = 0.02
+gpuTime = 0.00085088
+OneThrTime = 0.02
+gpuTime = 0.000850464
+OneThrTime = 0.01
+gpuTime = 0.00084432
+OneThrTime = 0.02
+gpuTime = 0.000849344
+OneThrTime = 0.02
+AVERAGE TIME OF WORK OF CUDA IS 0.000848 
+AVERAGE TIME OF WORK OF 1 THREADS IS 0.019167 
